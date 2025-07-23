@@ -1,0 +1,10 @@
+"./empty.o"
+"./ti_msp_dl_config.o"
+"./startup_mspm0g350x_ticlang.o"
+"./BSP/LCD/lcd.o"
+"./BSP/LCD/lcd_init.o"
+"./BSP/MPU6050/mpu6050.o"
+"./Board/board.o"
+-l"./device_linker.cmd"
+-ldevice.cmd.genlibs
+-llibc.a
